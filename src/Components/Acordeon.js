@@ -5,13 +5,12 @@ import ShoppingCart from './ShoppingCart';
 const Acordeon = () => {
   return (
     <div>
-      <Accordion className="acordeon" defaultActiveKey="0" flush>
+      <Accordion className="acordeon" defaultActiveKey="none" flush>
+    
         <Accordion.Item className="acordeon-color" eventKey="0">
           <Accordion.Header>Pizzas</Accordion.Header>
           <Accordion.Body>
-
-            <ShoppingCart/>
-            
+            <ShoppingCart />
           </Accordion.Body>
         </Accordion.Item>
 
@@ -80,7 +79,7 @@ const Acordeon = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item className="acordeon-color"  eventKey="6">
+        <Accordion.Item className="acordeon-color" eventKey="6">
           <Accordion.Header>Bebidas</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
