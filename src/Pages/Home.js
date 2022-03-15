@@ -2,7 +2,7 @@ import Carousel from '../Components/Carousel'
 
 import React from 'react'
 import Acordeon from '../Components/Acordeon';
-import logotipo from "../Assets/Img/logotipo.jpg";
+import logotipo from "../assets/Img/logotipo.jpg";
 
 
 const Home = () => {

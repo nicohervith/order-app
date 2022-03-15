@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
-import hambur from '../Assets/Img/hambur.jpeg'
-import pizza1 from "../Assets/Img/pizza1.jpg";
-import papasfritas from "../Assets/Img/papasfritas.png";
+import hambur from '../assets/Img/hambur.jpeg'
+import pizza1 from "../assets/Img/pizza1.jpg";
+import papasfritas from "../assets/Img/papasfritas.png";
 
 
 const HomeCarousel = () => {
